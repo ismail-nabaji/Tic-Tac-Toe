@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background: white;
+  width: 400px;
+  height: 400px;
+}
+
+.square{
+  background: #282c34;
+  color: rgb(200, 173, 173);
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  font-size: 50px;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
